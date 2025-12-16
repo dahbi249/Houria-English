@@ -1,0 +1,200 @@
+{
+    "en": {
+        "nav_home": "Home",
+        "nav_about": "About Us",
+        "nav_courses": "Courses",
+        "nav_contact": "Contact Us",
+        "hero_badge": "🚀 Master English, Conquer Your Future",
+        "hero_title": "Break Barriers with <span class='text-brandRed'>Confident</span> English.",
+        "hero_subtitle": "Whether you are preparing for IELTS or aiming for professional fluency, Houria English provides the tools and guidance to help you succeed globally.",
+        "btn_explore": "Explore Our Courses",
+        "btn_join": "Join Your Free Session",
+        "about_heading": "About <span class='text-brandRed'>Houria English</span>",
+        "about_text": "Founded by experts with a passion for linguistics, Houria English is more than just a school. We focus on real-world application, cultural nuance, and the psychological confidence needed to speak a second language natively.",
+        "courses_heading": "Our Specialized <span class='text-brandRed'>Courses</span>",
+        "courses_sub": "Designed for rapid progress and lasting results.",
+        "btn_seemore": "See More Courses",
+        "footer_desc": "Empowering professionals and students to conquer the world through language mastery.",
+        "rights": "© 2024 Houria English. All rights reserved.",
+        "course_details": {
+            "ielts": {
+                "title": "IELTS Mastery",
+                "description": "Our IELTS Mastery course is an intensive program designed to help you achieve Band 7.0+ score. We cover all four modules: Listening, Reading, Writing, and Speaking with personalized feedback.",
+                "duration": "12 Weeks",
+                "level": "Intermediate to Advanced",
+                "schedule": "Mon/Wed/Fri - 6:00 PM EST"
+            },
+            "business": {
+                "title": "Business English",
+                "description": "Master the language of global business. Learn to write effective emails, lead meetings, negotiate with confidence, and deliver impactful presentations.",
+                "duration": "8 Weeks",
+                "level": "Intermediate",
+                "schedule": "Tue/Thu - 7:00 PM EST"
+            },
+            "general": {
+                "title": "General Fluency",
+                "description": "Improve your daily conversation skills, expand your vocabulary, and gain the confidence to speak in any social situation.",
+                "duration": "10 Weeks",
+                "level": "All Levels",
+                "schedule": "Mon/Wed - 5:00 PM EST"
+            },
+            "private": {
+                "title": "Private Coaching",
+                "description": "One-on-one sessions tailored specifically to your goals. Whether it's accent reduction, interview prep, or specific industry terminology.",
+                "duration": "Flexible",
+                "level": "All Levels",
+                "schedule": "By Appointment"
+            },
+            "toefl": {
+                "title": "TOEFL Prep",
+                "description": "Strategic preparation for the TOEFL iBT. We focus on the specific skills needed to succeed in the academic environment.",
+                "duration": "12 Weeks",
+                "level": "Intermediate to Advanced",
+                "schedule": "Tue/Thu - 6:00 PM EST"
+            },
+            "kids": {
+                "title": "Kids English",
+                "description": "Fun and engaging lessons for children aged 6-12. We use games, stories, and songs to make learning English an adventure.",
+                "duration": "Ongoing",
+                "level": "Beginner",
+                "schedule": "Sat/Sun - 10:00 AM EST"
+            }
+        },
+        "modal_duration": "Duration",
+        "modal_level": "Level",
+        "modal_schedule": "Schedule",
+        "modal_close": "Close"
+    },
+    "fr": {
+        "nav_home": "Accueil",
+        "nav_about": "À Propos",
+        "nav_courses": "Cours",
+        "nav_contact": "Contact",
+        "hero_badge": "🚀 Maîtrisez l'anglais, Conquérez votre avenir",
+        "hero_title": "Brisez les barrières, parlez avec <span class='text-brandRed'>Confiance</span>.",
+        "hero_subtitle": "Que vous prépariez l'IELTS ou visiez la fluidité professionnelle, Houria English vous donne les outils pour réussir à l'international.",
+        "btn_explore": "Découvrir nos cours",
+        "btn_join": "Séance Gratuite",
+        "about_heading": "À Propos de <span class='text-brandRed'>Houria English</span>",
+        "about_text": "Fondée par des experts passionnés, Houria English est plus qu'une école. Nous nous concentrons sur l'application réelle, les nuances culturelles et la confiance psychologique.",
+        "courses_heading": "Nos Cours <span class='text-brandRed'>Spécialisés</span>",
+        "courses_sub": "Conçus pour des progrès rapides et durables.",
+        "btn_seemore": "Voir plus de cours",
+        "footer_desc": "Donner aux professionnels et étudiants le pouvoir de conquérir le monde par la maîtrise de la langue.",
+        "rights": "© 2024 Houria English. Tous droits réservés.",
+        "course_details": {
+            "ielts": {
+                "title": "Maîtrise IELTS",
+                "description": "Notre cours de maîtrise IELTS est un programme intensif conçu pour vous aider à atteindre un score de 7.0+. Nous couvrons les quatre modules : Écoute, Lecture, Écriture et Expression orale.",
+                "duration": "12 Semaines",
+                "level": "Intermédiaire à Avancé",
+                "schedule": "Lun/Mer/Ven - 18h00 EST"
+            },
+            "business": {
+                "title": "Anglais des Affaires",
+                "description": "Maîtrisez la langue des affaires mondiales. Apprenez à rédiger des e-mails efficaces, à diriger des réunions et à négocier avec confiance.",
+                "duration": "8 Semaines",
+                "level": "Intermédiaire",
+                "schedule": "Mar/Jeu - 19h00 EST"
+            },
+            "general": {
+                "title": "Fluidité Générale",
+                "description": "Améliorez vos compétences de conversation quotidienne, enrichissez votre vocabulaire et gagnez la confiance nécessaire pour parler dans toute situation sociale.",
+                "duration": "10 Semaines",
+                "level": "Tous Niveaux",
+                "schedule": "Lun/Mer - 17h00 EST"
+            },
+            "private": {
+                "title": "Coaching Privé",
+                "description": "Des sessions individuelles adaptées spécifiquement à vos objectifs. Que ce soit pour la réduction d'accent, la préparation aux entretiens ou la terminologie spécifique.",
+                "duration": "Flexible",
+                "level": "Tous Niveaux",
+                "schedule": "Sur Rendez-vous"
+            },
+            "toefl": {
+                "title": "Préparation TOEFL",
+                "description": "Préparation stratégique pour le TOEFL iBT. Nous nous concentrons sur les compétences spécifiques nécessaires pour réussir dans l'environnement académique.",
+                "duration": "12 Semaines",
+                "level": "Intermédiaire à Avancé",
+                "schedule": "Mar/Jeu - 18h00 EST"
+            },
+            "kids": {
+                "title": "Anglais pour Enfants",
+                "description": "Des leçons amusantes et engageantes pour les enfants de 6 à 12 ans. Nous utilisons des jeux, des histoires et des chansons.",
+                "duration": "Continu",
+                "level": "Débutant",
+                "schedule": "Sam/Dim - 10h00 EST"
+            }
+        },
+        "modal_duration": "Durée",
+        "modal_level": "Niveau",
+        "modal_schedule": "Horaire",
+        "modal_close": "Fermer"
+    },
+    "ar": {
+        "nav_home": "الرئيسية",
+        "nav_about": "من نحن",
+        "nav_courses": "دوراتنا",
+        "nav_contact": "اتصل بنا",
+        "hero_badge": "🚀 أتقن الإنجليزية، اصنع مستقبلك",
+        "hero_title": "تحدث الإنجليزية <span class='text-brandRed'>بثقة</span> واكسر القيود.",
+        "hero_subtitle": "سواء كنت تستعد لاختبار IELTS أو تهدف للطلاقة المهنية، توفر لك حورية إنجلش الأدوات والتوجيه للنجاح عالمياً.",
+        "btn_explore": "استكشف دوراتنا",
+        "btn_join": "انضم لجلسة مجانية",
+        "about_heading": "عن <span class='text-brandRed'>حورية إنجلش</span>",
+        "about_text": "تأسست حورية إنجلش على يد خبراء لغويين، وهي أكثر من مجرد مدرسة. نركز على التطبيق العملي، والفروق الثقافية، والثقة النفسية للتحدث بطلاقة.",
+        "courses_heading": "دوراتنا <span class='text-brandRed'>المتخصصة</span>",
+        "courses_sub": "مصممة لتحقيق تقدم سريع ونتائج دائمة.",
+        "btn_seemore": "شاهد المزيد من الدورات",
+        "footer_desc": "تمكين المحترفين والطلاب من غزو العالم من خلال إتقان اللغة.",
+        "rights": "© 2024 حورية إنجلش. جميع الحقوق محفوظة.",
+        "course_details": {
+            "ielts": {
+                "title": "إتقان الآيلتس (IELTS)",
+                "description": "دورتنا لإتقان الآيلتس هي برنامج مكثف مصمم لمساعدتك على تحقيق درجة 7.0 وما فوق. نغطي جميع الوحدات الأربع: الاستماع، القراءة، الكتابة، والتحدث.",
+                "duration": "12 أسبوع",
+                "level": "متوسط إلى متقدم",
+                "schedule": "الإثنين/الأربعاء/الجمعة - 6:00 م"
+            },
+            "business": {
+                "title": "الإنجليزية للأعمال",
+                "description": "أتقن لغة الأعمال العالمية. تعلم كتابة رسائل بريد إلكتروني فعالة، وقيادة الاجتماعات، والتفاوض بثقة.",
+                "duration": "8 أسابيع",
+                "level": "متوسط",
+                "schedule": "الثلاثاء/الخميس - 7:00 م"
+            },
+            "general": {
+                "title": "الطلاقة العامة",
+                "description": "حسن مهارات المحادثة اليومية، ووسع مفرداتك، واكتسب الثقة للتحدث في أي موقف اجتماعي.",
+                "duration": "10 أسابيع",
+                "level": "جميع المستويات",
+                "schedule": "الإثنين/الأربعاء - 5:00 م"
+            },
+            "private": {
+                "title": "تدريب خاص",
+                "description": "جلسات فردية مصممة خصيصاً لأهدافك. سواء كان ذلك لتقليل اللهجة، أو التحضير للمقابلة، أو لمصطلحات صناعية محددة.",
+                "duration": "مرن",
+                "level": "جميع المستويات",
+                "schedule": "بالمواعيد"
+            },
+            "toefl": {
+                "title": "التحضير للتوفل (TOEFL)",
+                "description": "إعداد استراتيجي لاختبار TOEFL iBT. نركز على المهارات المحددة اللازمة للنجاح في البيئة الأكاديمية.",
+                "duration": "12 أسبوع",
+                "level": "متوسط إلى متقدم",
+                "schedule": "الثلاثاء/الخميس - 6:00 م"
+            },
+            "kids": {
+                "title": "الإنجليزية للأطفال",
+                "description": "دروس ممتعة وجذابة للأطفال من سن 6 إلى 12 عاماً. نستخدم الألعاب والقصص والأغاني.",
+                "duration": "مستمر",
+                "level": "مبتدئ",
+                "schedule": "السبت/الأحد - 10:00 ص"
+            }
+        },
+        "modal_duration": "المدة",
+        "modal_level": "المستوى",
+        "modal_schedule": "الموعد",
+        "modal_close": "إغلاق"
+    }
+}
