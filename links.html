@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houria English | Links</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/media/logo/logo2.png">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#032066',
+                        brandRed: '#ec0006',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Montserrat', 'sans-serif'],
+                    },
+                    animation: {
+                        'fade-in-up': 'fadeInUp 0.8s ease-out',
+                        'bounce-slow': 'bounce 3s infinite',
+                        'pulse-slow': 'pulse 3s infinite',
+                    },
+                    keyframes: {
+                        fadeInUp: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-50 min-h-screen flex flex-col items-center justify-center p-6 relative overflow-x-hidden">
+
+    <!-- Decorative Elements -->
+    <div
+        class="absolute top-0 left-0 w-64 h-64 bg-brandRed rounded-full filter blur-[100px] opacity-20 -translate-x-1/2 -translate-y-1/2">
+    </div>
+    <div
+        class="absolute bottom-0 right-0 w-80 h-80 bg-blue-500 rounded-full filter blur-[120px] opacity-10 translate-x-1/2 translate-y-1/2">
+    </div>
+
+    <div class="text-center mb-10 relative z-10 animate-fade-in-up">
+        <div
+            class="w-32 h-32 bg-white rounded-full mx-auto mb-6 flex items-center justify-center shadow-xl border-4 border-white/10 p-2">
+            <img src="assets/media/logo/logo.png" alt="Houria English Logo" class="h-20 w-auto">
+        </div>
+        <h1 class="text-brandRed text-3xl font-heading font-extrabold tracking-tight mb-2">Houria <span
+                class="text-navy">English</span></h1>
+        <p class="text-navy font-medium">Master English, Conquer Your Future 🚀</p>
+    </div>
+
+    <div class="w-full max-w-md space-y-4 relative z-10 animate-fade-in-up" style="animation-delay: 0.1s;">
+
+        <!-- CTA Button -->
+        <a href="https://calendly.com/your-link"
+            class="block w-full bg-brandRed text-white text-center py-4 rounded-xl font-bold shadow-lg shadow-brandRed/20 transform hover:-translate-y-1 hover:shadow-xl transition-all duration-300 animate-pulse-slow border border-brandRed ring-2 ring-transparent hover:ring-white/20">
+            🔥 Book Free Assessment
+        </a>
+
+        <!-- Main Website -->
+        <a href="index.html"
+            class="block w-full bg-white text-navy text-center py-4 rounded-xl font-bold shadow-md transform hover:-translate-y-1 hover:shadow-lg transition-all duration-300 border-2 border-white hover:border-brandRed hover:text-brandRed group">
+            <span class="mr-2 group-hover:scale-110 inline-block transition-transform">🌐</span> Official Website
+        </a>
+
+        <!-- Course Links -->
+        <a href="courses.html#ielts"
+            class="block w-full bg-white/95 backdrop-blur-sm text-navy text-center py-4 rounded-xl font-bold shadow-md transform hover:-translate-y-1 hover:shadow-lg transition-all duration-300 border-2 border-transparent hover:border-brandRed hover:text-brandRed">
+            🎓 IELTS Mastery
+        </a>
+
+        <a href="courses.html#kids"
+            class="block w-full bg-white/95 backdrop-blur-sm text-navy text-center py-4 rounded-xl font-bold shadow-md transform hover:-translate-y-1 hover:shadow-lg transition-all duration-300 border-2 border-transparent hover:border-brandRed hover:text-brandRed">
+            🧒 English for Kids
+        </a>
+
+        <!-- WhatsApp -->
+        <a href="https://wa.me/yournumber"
+            class="block w-full bg-[#25D366] text-white text-center py-4 rounded-xl font-bold shadow-lg transform hover:-translate-y-1 hover:shadow-xl transition-all duration-300 border border-[#25D366] hover:brightness-110">
+            <i class="fab fa-whatsapp text-xl mr-2"></i> Chat on WhatsApp
+        </a>
+
+    </div>
+
+    <!-- Socials Footer -->
+    <div class="flex space-x-6 mt-12 text-navy text-2xl relative z-10 animate-fade-in-up"
+        style="animation-delay: 0.2s;">
+        <a href="#" class="hover:text-brandRed hover:scale-110 transition-all duration-300"><i
+                class="fab fa-instagram"></i></a>
+        <a href="#" class="hover:text-brandRed hover:scale-110 transition-all duration-300"><i
+                class="fab fa-facebook-f"></i></a>
+        <a href="#" class="hover:text-brandRed hover:scale-110 transition-all duration-300"><i
+                class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="hover:text-brandRed hover:scale-110 transition-all duration-300"><i
+                class="fab fa-tiktok"></i></a>
+    </div>
+
+    <p class="mt-8 text-sm text-navy font-medium">© 2024 Houria English</p>
+
+</body>
+
+</html>
