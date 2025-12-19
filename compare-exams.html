@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare Exams | Houria English</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/media/logo/logo2.png">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#032066',
+                        brandRed: '#ec0006',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Montserrat', 'sans-serif'],
+                    },
+                    animation: {
+                        'fade-in-up': 'fadeInUp 0.8s ease-out',
+                    },
+                    keyframes: {
+                        fadeInUp: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-50 font-sans text-gray-900 antialiased selection:bg-brandRed selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="bg-white server-hidden/90 backdrop-blur-md shadow-sm sticky top-0 z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <a href="index.html" class="flex-shrink-0 flex items-center gap-3 group cursor-pointer">
+                    <img src="assets/media/logo/logo.png" alt="Houria English Logo" class="h-10 w-auto">
+                    <span
+                        class="text-2xl font-heading font-extrabold text-brandRed tracking-tight group-hover:opacity-90 transition">Houria
+                        <span class="text-navy">English</span></span>
+                </a>
+                <div class="hidden md:flex space-x-8 font-medium text-gray-700">
+                    <a href="index.html" class="hover:text-navy hover:font-semibold transition-all duration-200 mx-4"
+                        data-i18n="nav_home">Home</a>
+                    <a href="index.html#about"
+                        class="hover:text-navy hover:font-semibold transition-all duration-200 mx-4"
+                        data-i18n="nav_about">About Us</a>
+                    <a href="courses.html" class="hover:text-navy hover:font-semibold transition-all duration-200 mx-4"
+                        data-i18n="nav_courses">Courses</a>
+                    <a href="index.html#contact" class="hover:text-navy hover:font-semibold transition-all duration-200"
+                        data-i18n="nav_contact">Contact Us</a>
+                </div>
+                <!-- Language Switcher & Burger Menu -->
+                <div class="flex items-center gap-4">
+                    <div class="hidden md:flex gap-2">
+                        <button class="lang-btn text-sm font-bold text-gray-600 hover:text-navy"
+                            data-lang="en">EN</button>
+                        <span class="text-gray-300">|</span>
+                        <button class="lang-btn text-sm font-bold text-gray-600 hover:text-navy"
+                            data-lang="fr">FR</button>
+                        <span class="text-gray-300">|</span>
+                        <button class="lang-btn text-sm font-bold text-gray-600 hover:text-navy"
+                            data-lang="ar">AR</button>
+                    </div>
+                    <!-- Validated Burger Menu Button -->
+                    <button id="burger-btn" class="md:hidden text-2xl text-navy focus:outline-none">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu (Hidden by default) -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t p-4 absolute top-20 left-0 w-full shadow-lg">
+            <div class="flex flex-col space-y-4 font-bold text-center">
+                <a href="index.html" class="hover:text-brandRed" data-i18n="nav_home">Home</a>
+                <a href="index.html#about" class="hover:text-brandRed" data-i18n="nav_about">About Us</a>
+                <a href="courses.html" class="hover:text-brandRed" data-i18n="nav_courses">Courses</a>
+                <a href="index.html#contact" class="hover:text-brandRed" data-i18n="nav_contact">Contact Us</a>
+                <div class="flex justify-center gap-4 pt-4 border-t">
+                    <button class="lang-btn" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="fr">FR</button>
+                    <button class="lang-btn" data-lang="ar">AR</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="bg-navy py-16 text-white text-center">
+        <div class="max-w-7xl mx-auto px-4">
+            <h1 class="text-3xl lg:text-5xl font-heading font-extrabold mb-4" data-i18n="compare_page_title">IELTS vs
+                TOEFL Comparison</h1>
+        </div>
+    </header>
+
+    <!-- Comparison Table Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 p-6 md:p-10">
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse">
+                        <thead>
+                            <tr class="text-navy uppercase text-sm leading-normal border-b-2 border-navy">
+                                <th class="py-3 px-6 text-left font-bold" data-i18n="compare_head_feature">Feature</th>
+                                <th class="py-3 px-6 text-left font-bold" data-i18n="compare_head_ielts">IELTS</th>
+                                <th class="py-3 px-6 text-left font-bold" data-i18n="compare_head_toefl">TOEFL</th>
+                                <th class="py-3 px-6 text-left font-bold" data-i18n="compare_head_pte">PTE</th>
+                                <th class="py-3 px-6 text-left font-bold" data-i18n="compare_head_cambridge">Cambridge
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-gray-600 text-sm font-light">
+                            <tr class="border-b border-gray-200 hover:bg-gray-50 transition">
+                                <td class="py-4 px-6 text-left whitespace-nowrap font-bold text-navy"
+                                    data-i18n="comp_purpose">Purpose</td>
+                                <td class="py-4 px-6 text-left font-medium" data-i18n="comp_purpose_ielts">Study, Work,
+                                    Migration</td>
+                                <td class="py-4 px-6 text-left font-medium" data-i18n="comp_purpose_toefl">Academic
+                                    Study</td>
+                                <td class="py-4 px-6 text-left font-medium" data-i18n="comp_purpose_pte">Study,
+                                    Migration</td>
+                                <td class="py-4 px-6 text-left font-medium" data-i18n="comp_purpose_cambridge">Study,
+                                    Work (Lifetime)</td>
+                            </tr>
+                            <tr class="border-b border-gray-200 hover:bg-gray-50 transition">
+                                <td class="py-4 px-6 text-left whitespace-nowrap font-bold text-navy"
+                                    data-i18n="comp_format">Format</td>
+                                <td class="py-4 px-6 text-left font-medium" data-i18n="comp_format_ielts">Paper or
+                                    Computer</td>
+                                <td class="py-4 px-6 text-left font-medium" data-i18n="comp_format_toefl">Internet-based
+                                    (iBT)</td>
+                                <td class="py-4 px-6 text-left font-medium" data-i18n="comp_format_pte">Computer-based
+                                </td>
+                                <td class="py-4 px-6 text-left font-medium" data-i18n="comp_format_cambridge">Paper or
+                                    Computer</td>
+                            </tr>
+                            <tr class="border-b border-gray-200 hover:bg-gray-50 transition">
+                                <td class="py-4 px-6 text-left whitespace-nowrap font-bold text-navy"
+                                    data-i18n="comp_speaking">Speaking</td>
+                                <td class="py-4 px-6 text-left font-medium" data-i18n="comp_speaking_ielts">Face-to-face
+                                </td>
+                                <td class="py-4 px-6 text-left font-medium" data-i18n="comp_speaking_toefl">Microphone
+                                </td>
+                                <td class="py-4 px-6 text-left font-medium" data-i18n="comp_speaking_pte">Microphone
+                                    (AI)</td>
+                                <td class="py-4 px-6 text-left font-medium" data-i18n="comp_speaking_cambridge">
+                                    Face-to-face (Pair)</td>
+                            </tr>
+                            <tr class="border-b border-gray-200 hover:bg-gray-50 transition">
+                                <td class="py-4 px-6 text-left whitespace-nowrap font-bold text-navy"
+                                    data-i18n="comp_scoring">Scoring</td>
+                                <td class="py-4 px-6 text-left font-medium" data-i18n="comp_scoring_ielts">0-9 Band</td>
+                                <td class="py-4 px-6 text-left font-medium" data-i18n="comp_scoring_toefl">0-120 Points
+                                </td>
+                                <td class="py-4 px-6 text-left font-medium" data-i18n="comp_scoring_pte">10-90
+                                    Scholastic</td>
+                                <td class="py-4 px-6 text-left font-medium" data-i18n="comp_scoring_cambridge">160-210
+                                    Scale</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="mt-8 text-center bg-blue-50 p-6 rounded-xl border border-blue-100">
+                    <p class="text-navy font-semibold mb-4 text-lg">Still not sure? Let us guide you!</p>
+                    <a href="index.html#contact"
+                        class="inline-block bg-navy text-white px-6 py-2.5 rounded-lg font-bold hover:bg-blue-800 transition shadow-sm"
+                        data-i18n="nav_contact">Contact Us</a>
+                </div>
+            </div>
+
+            <div class="text-center mt-10">
+                <a href="exams.html"
+                    class="inline-block border-2 border-gray-300 text-gray-600 px-6 py-2 rounded-lg font-bold hover:border-navy hover:text-navy transition">
+                    ← <span data-i18n="btn_seemore">Back to Exams</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy text-white pt-20 pb-10" id="contact">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-12 mb-16">
+                <div class="col-span-1 md:col-span-2">
+                    <a href="index.html" class="flex items-center gap-3 mb-4 group">
+                        <div class="bg-white rounded-lg p-1.5 flex items-center justify-center">
+                            <img src="assets/media/logo/logo.png" alt="Houria English Logo" class="h-8 w-auto">
+                        </div>
+                        <span class="text-3xl font-heading font-extrabold tracking-tight text-brandRed">Houria <span
+                                class="text-white">English</span></span>
+                    </a>
+                    <p class="mt-4 text-blue-200 leading-relaxed max-w-xs" data-i18n="footer_desc">Empowering
+                        professionals and students to
+                        conquer the world through language mastery.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-6" data-i18n="quick_links">Quick Links</h4>
+                    <ul class="space-y-4 text-blue-200">
+                        <li><a href="index.html" class="hover:text-brandRed transition" data-i18n="nav_home">Home</a>
+                        </li>
+                        <li><a href="courses.html" class="hover:text-brandRed transition"
+                                data-i18n="nav_courses">Courses</a></li>
+                        <li><a href="index.html#about" class="hover:text-brandRed transition"
+                                data-i18n="nav_about">About Us</a></li>
+                        <li><a href="index.html#contact" class="hover:text-brandRed transition"
+                                data-i18n="nav_contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-6" data-i18n="connect">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="#"
+                            class="w-10 h-10 bg-blue-800 rounded-full flex items-center justify-center hover:bg-brandRed transition transform hover:-translate-y-1"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="#"
+                            class="w-10 h-10 bg-blue-800 rounded-full flex items-center justify-center hover:bg-brandRed transition transform hover:-translate-y-1"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="#"
+                            class="w-10 h-10 bg-blue-800 rounded-full flex items-center justify-center hover:bg-brandRed transition transform hover:-translate-y-1"><i
+                                class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <p class="mt-6 text-blue-200"><i class="fas fa-envelope mr-2"></i> hello@houriaenglish.com</p>
+                </div>
+            </div>
+
+            <div class="border-t border-blue-800 pt-8 text-center md:flex md:justify-between items-center">
+                <p class="text-sm text-blue-400" data-i18n="rights">© 2024 Houria English. All rights reserved.</p>
+                <div class="mt-4 md:mt-0 space-x-6 text-sm text-blue-400">
+                    <a href="#" class="hover:text-white transition" data-i18n="privacy">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition" data-i18n="terms">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
