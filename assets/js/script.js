@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "hero_subtitle": "Whether you are preparing for IELTS or aiming for professional fluency, Houria English provides the tools and guidance to help you succeed globally.",
             "btn_explore": "Explore Our Courses",
             "btn_join": "Join Your Free Session",
-            "about_heading": "About <span class='text-brandRed'>Houria English</span>",
+            "about_heading": "<span class='text-brandRed'>Houria</span> English",
             "about_text": "Founded by experts with a passion for linguistics, Houria English is more than just a school. We focus on real-world application, cultural nuance, and the psychological confidence needed to speak a second language natively.",
             "about_tailored_title": "Tailored Learning",
             "about_tailored_desc": "Your goals are unique, and your learning path should be too.",
@@ -221,7 +221,9 @@ document.addEventListener('DOMContentLoaded', () => {
             "modal_duration": "Duration",
             "modal_level": "Level",
             "modal_schedule": "Schedule",
-            "modal_close": "Close"
+            "modal_close": "Close",
+            "faq_cta_text": "Didn't find an answer to your question?",
+            "faq_cta_button": "Contact us on WhatsApp"
         },
         "fr": {
             "nav_home": "Accueil",
@@ -442,7 +444,9 @@ document.addEventListener('DOMContentLoaded', () => {
             "modal_duration": "Durée",
             "modal_level": "Niveau",
             "modal_schedule": "Horaire",
-            "modal_close": "Fermer"
+            "modal_close": "Fermer",
+            "faq_cta_text": "Vous n'avez pas trouvé de réponse à votre question ?",
+            "faq_cta_button": "Contactez-nous sur WhatsApp"
         },
         "ar": {
             "nav_home": "الرئيسية",
@@ -663,7 +667,9 @@ document.addEventListener('DOMContentLoaded', () => {
             "modal_duration": "المدة",
             "modal_level": "المستوى",
             "modal_schedule": "الموعد",
-            "modal_close": "إغلاق"
+            "modal_close": "إغلاق",
+            "faq_cta_text": "لم تجد إجابة لسؤالك؟",
+            "faq_cta_button": "تواصل معنا على واتساب"
         }
     };
 
