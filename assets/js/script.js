@@ -39,18 +39,13 @@ document.addEventListener('DOMContentLoaded', () => {
             "catalog_title": "Our Complete Course Catalog",
             "catalog_subtitle": "Find the perfect path to English mastery.",
 
-            "card_title_speaking": "Speaking Courses",
+            "card_title_speaking": "Master Speaking English",
             "card_desc_speaking": "Comprehensive preparation for Academic and General modules connecting you to global opportunities.",
-            "card_title_international": "International Exams",
+            "card_title_international": "International Exams & Academic Fast-Track",
             "card_desc_international": "Master negotiation, presentations, and professional email etiquette for the corporate world.",
-            "card_title_esp": "ESP Courses",
+            "card_title_esp": "English for Professionals (ESP)",
             "card_desc_esp": "Build natural confidence for daily conversations, travel, and social interactions.",
-            "card_title_private": "Private Coaching",
-            "card_desc_private": "Personalized attention for specialized goals and rapid improvement.",
-            "card_title_toefl": "TOEFL Prep",
-            "card_desc_toefl": "Targeted strategies for the TOEFL iBT exam success.",
-            "card_title_kids": "Kids English",
-            "card_desc_kids": "Fun, interactive lessons designed for young learners aged 6-12.",
+           
 
             "reviews_heading": "Success Stories",
             "review_1_text": "\"Thank you for a very thoughtful and well-conducted session. <span class='text-white font-bold'>Your clear explanations, supportive approach, and genuine interest in our learning made it a really positive experience</span> I appreciate the time and effort you put into preparing and delivering the session, and I found it both engaging and valuable. Thank you for your guidance and for creating such a comfortable learning environment Love u miss Houria.\"",
@@ -66,8 +61,8 @@ document.addEventListener('DOMContentLoaded', () => {
             "faq_3_q": "Are materials included in the price?",
             "faq_3_a": "Yes, all digital textbooks, worksheets, and practice exams are included. You don't need to purchase anything else.",
 
-            "detail_ielts_title": "IELTS Mastery",
-            "detail_ielts_desc": "Our IELTS Mastery course is an intensive program designed to help you achieve Band 7.0+ score. We cover all four modules: Listening, Reading, Writing, and Speaking with personalized feedback.",
+            "detail_ielts_title": "IELTS Success",
+            "detail_ielts_desc": "Our IELTS Success course is an intensive program designed to help you achieve Band 7.0+ score. We cover all four modules: Listening, Reading, Writing, and Speaking with personalized feedback.",
             "detail_ielts_duration": "12 Weeks",
             "detail_ielts_level": "Intermediate to Advanced",
             "detail_ielts_schedule": "Mon/Wed/Fri - 6:00 PM EST",
@@ -103,9 +98,16 @@ document.addEventListener('DOMContentLoaded', () => {
             "comp_scoring_pte": "10-90 Scholastic",
             "comp_scoring_cambridge": "160-210 Scale",
 
+            "card_title_private": "Private Coaching",
+            "card_desc_private": "Personalized attention for specialized goals and rapid improvement.",
+            "card_title_toefl": "TOEFL Elite",
+            "card_desc_toefl": "Targeted strategies for the TOEFL iBT exam success.",
+            "card_title_kids": "Kids English",
+            "card_desc_kids": "Fun, interactive lessons designed for young learners aged 6-12.",
+
             "card_title_pte": "PTE Academic",
             "card_desc_pte": "Fast, computer-based English test for study abroad and immigration.",
-            "card_title_cambridge": "Cambridge C1 Advanced",
+            "card_title_cambridge": "Cambridge ESOL",
             "card_desc_cambridge": "High-level qualification proving language skills employers seek.",
 
             "card_title_public": "Public Speaking",
@@ -124,9 +126,9 @@ document.addEventListener('DOMContentLoaded', () => {
             "detail_pte_desc": "A fully computer-based exam trusted by universities worldwide. Fast results in typically 48 hours.",
             "detail_pte_duration": "4 Weeks",
             "detail_pte_level": "Intermediate",
-            "detail_pte_schedule": "Tue/Thu - 7:00 PM EST",
+            "detail_pte_schedule": "Flexible",
 
-            "detail_cambridge_title": "Cambridge C1 Advanced",
+            "detail_cambridge_title": "Cambridge ESOL",
             "detail_cambridge_desc": "A rigorous exam for high achievers. Unlike others, this certificate does not expire.",
             "detail_cambridge_duration": "14 Weeks",
             "detail_cambridge_level": "Advanced",
@@ -166,35 +168,63 @@ document.addEventListener('DOMContentLoaded', () => {
             "detail_business_desc": "Master the language of global business. Learn to write effective emails, lead meetings, negotiate with confidence, and deliver impactful presentations.",
             "detail_business_duration": "8 Weeks",
             "detail_business_level": "Intermediate",
-            "detail_business_schedule": "Tue/Thu - 7:00 PM EST",
+            "detail_business_schedule": "Flexible",
 
             "detail_general_title": "General Fluency",
             "detail_general_desc": "Improve your daily conversation skills, expand your vocabulary, and gain the confidence to speak in any social situation.",
             "detail_general_duration": "10 Weeks",
             "detail_general_level": "All Levels",
-            "detail_general_schedule": "Mon/Wed - 5:00 PM EST",
+            "detail_general_schedule": "Flexible",
 
             "course_details": {
                 "ielts": {
-                    "title": "IELTS Mastery",
-                    "description": "Our IELTS Mastery course is an intensive program designed to help you achieve Band 7.0+ score. We cover all four modules: Listening, Reading, Writing, and Speaking with personalized feedback.",
-                    "duration": "12 Weeks",
+                    "title": "IELTS Success",
+                    "description": "A personalized program focused on diagnosing and fixing student weaknesses while providing advanced strategies to handle exam pressure and ensure the targeted band score.",
+                    "duration": "5 Intensive Weeks",
                     "level": "Intermediate to Advanced",
-                    "schedule": "Mon/Wed/Fri - 6:00 PM EST"
+                    "schedule": "Flexible"
+                },
+                "cambridge": {
+                    "title": "Cambridge ESOL",
+                    "description": "Methodical preparation that addresses common errors and reinforces linguistic skills with the tools and strategies necessary to ensure success in Cambridge exams.",
+                    "duration": "5 Intensive Weeks",
+                    "level": "Advanced",
+                    "schedule": "Flexible"
+                },
+                "toeic": {
+                    "title": "TOEIC Pro",
+                    "description": "We focus on strengthening skill deficits in professional English, providing the strategies needed to ace the exam and excel in international business environments.",
+                    "duration": "5 Intensive Weeks",
+                    "level": "Advanced",
+                    "schedule": "Flexible"
+                },
+                "toefl": {
+                    "title": "TOEFL Elite",
+                    "description": "Intensive training designed to bridge language gaps and master technical tactics for time management, ensuring the required score for university admission.",
+                    "duration": "5 Intensive Weeks",
+                    "level": "Intermediate to Advanced",
+                    "schedule": "Flexible"
+                },
+                "fast_track": {
+                    "title": "Fast Track to Turkey",
+                    "description": "A specialized bootcamp to pass the Proficiency exam; we fix academic gaps and provide the strategies that guarantee skipping the prep year and starting your major immediately.",
+                    "duration": "5 Intensive Weeks",
+                    "level": "Advanced",
+                    "schedule": "Flexible"
                 },
                 "business": {
                     "title": "Business English",
                     "description": "Master the language of global business. Learn to write effective emails, lead meetings, negotiate with confidence, and deliver impactful presentations.",
-                    "duration": "8 Weeks",
+                    "duration": "5 Intensive Weeks",
                     "level": "Intermediate",
-                    "schedule": "Tue/Thu - 7:00 PM EST"
+                    "schedule": "Flexible"
                 },
                 "general": {
                     "title": "General Fluency",
                     "description": "Improve your daily conversation skills, expand your vocabulary, and gain the confidence to speak in any social situation.",
-                    "duration": "10 Weeks",
+                    "duration": "5 Intensive Weeks",
                     "level": "All Levels",
-                    "schedule": "Mon/Wed - 5:00 PM EST"
+                    "schedule": "Flexible"
                 },
                 "private": {
                     "title": "Private Coaching",
@@ -203,19 +233,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     "level": "All Levels",
                     "schedule": "By Appointment"
                 },
-                "toefl": {
-                    "title": "TOEFL Prep",
-                    "description": "Strategic preparation for the TOEFL iBT. We focus on the specific skills needed to succeed in the academic environment.",
-                    "duration": "12 Weeks",
-                    "level": "Intermediate to Advanced",
-                    "schedule": "Tue/Thu - 6:00 PM EST"
-                },
                 "kids": {
                     "title": "Kids English",
                     "description": "Fun and engaging lessons for children aged 6-12. We use games, stories, and songs to make learning English an adventure.",
                     "duration": "Ongoing",
                     "level": "Beginner",
-                    "schedule": "Sat/Sun - 10:00 AM EST"
+                    "schedule": "Flexible"
                 }
             },
             "modal_duration": "Duration",
@@ -261,6 +284,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
             "catalog_title": "Notre Catalogue Complet",
             "catalog_subtitle": "Trouvez le chemin idéal vers la maîtrise de l'anglais.",
+
+            "card_title_speaking": "Maîtriser l'Anglais Oral",
+            "card_desc_speaking": "Comprehensive preparation for Academic and General modules connecting you to global opportunities.",
+            "card_title_international": "Examens Internationaux & Voie Rapide Académique",
+            "card_desc_international": "Master negotiation, presentations, and professional email etiquette for the corporate world.",
+            "card_title_esp": "Anglais pour Professionnels",
+            "card_desc_esp": "Build natural confidence for daily conversations, travel, and social interactions.",
+           
 
             "card_title_ielts": "Maîtrise IELTS",
             "card_desc_ielts": "Préparation complète aux modules académique et général pour vos opportunités mondiales.",
@@ -399,25 +430,53 @@ document.addEventListener('DOMContentLoaded', () => {
 
             "course_details": {
                 "ielts": {
-                    "title": "Maîtrise IELTS",
-                    "description": "Notre cours de maîtrise IELTS est un programme intensif conçu pour vous aider à atteindre un score de 7.0+. Nous couvrons les quatre modules : Écoute, Lecture, Écriture et Expression orale.",
-                    "duration": "12 Semaines",
+                    "title": "Préparation IELTS",
+                    "description": "Un programme personnalisé axé sur le diagnostic et la correction des points faibles de l'étudiant, tout en fournissant des stratégies avancées pour garantir le score visé.",
+                    "duration": "5 Semaines Intensives",
                     "level": "Intermédiaire à Avancé",
-                    "schedule": "Lun/Mer/Ven - 18h00 EST"
+                    "schedule": "Flexible"
+                },
+                "cambridge": {
+                    "title": "Cambridge ESOL",
+                    "description": "Methodical preparation that addresses common errors and reinforces linguistic skills with the tools and strategies necessary to ensure success in Cambridge exams.",
+                    "duration": "5 Intensive Weeks",
+                    "level": "Advanced",
+                    "schedule": "Flexible"
+                },
+                "toeic": {
+                    "title": "TOEIC Pro",
+                    "description": "Nous nous concentrons sur le renforcement des compétences manquantes, en fournissant les stratégies nécessaires pour réussir l'examen et exceller dans le milieu professionnel.",
+                    "duration": "5 Intensive Weeks",
+                    "level": "Advanced",
+                    "schedule": "Flexible"
+                },
+                "toefl": {
+                    "title": "TOEFL Elite",
+                    "description": "Formation intensive conçue pour combler les lacunes linguistiques et maîtriser les tactiques de gestion du temps, assurant le score requis pour l'admission universitaire.",
+                    "duration": "5 Intensive Weeks",
+                    "level": "Intermediate to Advanced",
+                    "schedule": "Flexible"
+                },
+                "fast_track": {
+                    "title": "Fast Track to Turkey",
+                    "description": "A specialized bootcamp to pass the Proficiency exam; we fix academic gaps and provide the strategies that guarantee skipping the prep year and starting your major immediately.",
+                    "duration": "5 Intensive Weeks",
+                    "level": "Advanced",
+                    "schedule": "Flexible"
                 },
                 "business": {
                     "title": "Anglais des Affaires",
                     "description": "Maîtrisez la langue des affaires mondiales. Apprenez à rédiger des e-mails efficaces, à diriger des réunions et à négocier avec confiance.",
-                    "duration": "8 Semaines",
+                    "duration": "5 Semaines Intensives",
                     "level": "Intermédiaire",
-                    "schedule": "Mar/Jeu - 19h00 EST"
+                    "schedule": "Flexible"
                 },
                 "general": {
                     "title": "Fluidité Générale",
                     "description": "Améliorez vos compétences de conversation quotidienne, enrichissez votre vocabulaire et gagnez la confiance nécessaire pour parler dans toute situation sociale.",
-                    "duration": "10 Semaines",
+                    "duration": "5 Semaines Intensives",
                     "level": "Tous Niveaux",
-                    "schedule": "Lun/Mer - 17h00 EST"
+                    "schedule": "Flexible"
                 },
                 "private": {
                     "title": "Coaching Privé",
@@ -429,7 +488,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 "toefl": {
                     "title": "Préparation TOEFL",
                     "description": "Préparation stratégique pour le TOEFL iBT. Nous nous concentrons sur les compétences spécifiques nécessaires pour réussir dans l'environnement académique.",
-                    "duration": "12 Semaines",
+                    "duration": "5 Semaines Intensives",
                     "level": "Intermédiaire à Avancé",
                     "schedule": "Mar/Jeu - 18h00 EST"
                 },
@@ -438,7 +497,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "description": "Des leçons amusantes et engageantes pour les enfants de 6 à 12 ans. Nous utilisons des jeux, des histoires et des chansons.",
                     "duration": "Continu",
                     "level": "Débutant",
-                    "schedule": "Sam/Dim - 10h00 EST"
+                    "schedule": "Flexible"
                 }
             },
             "modal_duration": "Durée",
@@ -497,6 +556,16 @@ document.addEventListener('DOMContentLoaded', () => {
             "card_desc_toefl": "استراتيجيات موجهة للنجاح في اختبار TOEFL iBT.",
             "card_title_kids": "الإنجليزية للأطفال",
             "card_desc_kids": "دروس ممتعة وتفاعلية مصممة للمتعلمين الصغار من سن 6-12.",
+
+
+
+            "card_title_speaking": " إتقان التحدث بالإنجليزية",
+            "card_desc_speaking": "تحضير شامل للوحدات الأكاديمية والعامة لربطك بالفرص العالمية.",
+            "card_title_international": "قسم الامتحانات الدولية والمسار السريع",
+            "card_desc_international": "التحضير للإختبارات الدولية وvoie rapide académique.",
+            "card_title_esp": "الإنجليزية لأغراض مهنية",
+            "card_desc_esp": "بناء الثقة الطبيعية للمحادثات اليومية، والسفر، والتفاعلات الاجتماعية.",
+
 
             "reviews_heading": "قصص نجاح",
             "review_1_text": "\شكراً جزيلاً لكِ على هذه الجلسة الرائعة والمُدارة بإتقان.<span class='text-white font-bold'>لقد جعلتِ من هذه التجربة إيجابية حقاً بفضل شرحكِ الواضح، وأسلوبكِ الداعم، واهتمامكِ الصادق بتعلمنا. أقدّر عالياً الوقت والجهد اللذين بذلتِهما في تحضير وتقديم هذه الجلسة، فقد كانت ممتعة وقيمة للغاية.</span> شكراً لكِ على توجيهكِ وعلى خلق بيئة تعليمية مريحة. أحبكِ آنسة حورية.\"",
