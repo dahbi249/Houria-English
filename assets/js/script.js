@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "card_title_speaking": "Master Speaking English",
             "card_desc_speaking": "Comprehensive preparation for Academic and General modules connecting you to global opportunities.",
             "card_title_international": "International Exams & Academic Fast-Track",
-            "card_desc_international": "Master negotiation, presentations, and professional email etiquette for the corporate world.",
+            "card_desc_international": "Preparation for international exams and the fast-track academic path.",
             "card_title_esp": "English for Professionals (ESP)",
             "card_desc_esp": "Build natural confidence for daily conversations, travel, and social interactions.",
            
@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             "course_details": {
                 "ielts": {
-                    "title": "IELTS Success",
+                    "title": "IELTS Preparation",
                     "description": "A personalized program focused on diagnosing and fixing student weaknesses while providing advanced strategies to handle exam pressure and ensure the targeted band score.",
                     "duration": "5 Intensive Weeks",
                     "level": "Intermediate to Advanced",
@@ -192,21 +192,21 @@ document.addEventListener('DOMContentLoaded', () => {
                     "schedule": "Flexible"
                 },
                 "toeic": {
-                    "title": "TOEIC Pro",
+                    "title": "TOEIC Program",
                     "description": "We focus on strengthening skill deficits in professional English, providing the strategies needed to ace the exam and excel in international business environments.",
                     "duration": "5 Intensive Weeks",
                     "level": "Advanced",
                     "schedule": "Flexible"
                 },
                 "toefl": {
-                    "title": "TOEFL Elite",
+                    "title": "TOEFL iBT Prep",
                     "description": "Intensive training designed to bridge language gaps and master technical tactics for time management, ensuring the required score for university admission.",
                     "duration": "5 Intensive Weeks",
                     "level": "Intermediate to Advanced",
                     "schedule": "Flexible"
                 },
                 "fast_track": {
-                    "title": "Fast Track to Turkey",
+                    "title": "Fast Track to Turkish Universities",
                     "description": "A specialized bootcamp to pass the Proficiency exam; we fix academic gaps and provide the strategies that guarantee skipping the prep year and starting your major immediately.",
                     "duration": "5 Intensive Weeks",
                     "level": "Advanced",
@@ -214,7 +214,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 },
                 "business": {
                     "title": "Business English",
-                    "description": "Master the language of global business. Learn to write effective emails, lead meetings, negotiate with confidence, and deliver impactful presentations.",
+                    "description": "A course designed to empower professionals with corporate communication skills. We focus on addressing communication challenges in meetings, report writing, and presentations, providing you with the strategies to boost your confidence and ensure professional excellence.",
+                    "duration": "5 Intensive Weeks",
+                    "level": "Intermediate",
+                    "schedule": "Flexible"
+                },
+                "medical": {
+                    "title": "Medical English",
+                    "description": "A specialized program for medical professionals aimed at bridging the language gap in handling medical terminology and communicating with patients and colleagues. We develop your diagnostic and research skills in English, providing the tools for expert and safe medical performance globally.",
                     "duration": "5 Intensive Weeks",
                     "level": "Intermediate",
                     "schedule": "Flexible"
@@ -286,11 +293,11 @@ document.addEventListener('DOMContentLoaded', () => {
             "catalog_subtitle": "Trouvez le chemin idéal vers la maîtrise de l'anglais.",
 
             "card_title_speaking": "Maîtriser l'Anglais Oral",
-            "card_desc_speaking": "Comprehensive preparation for Academic and General modules connecting you to global opportunities.",
+            "card_desc_speaking": "Préparation complète aux modules académiques et généraux vous ouvrant les portes d'opportunités internationales.",
             "card_title_international": "Examens Internationaux & Voie Rapide Académique",
-            "card_desc_international": "Master negotiation, presentations, and professional email etiquette for the corporate world.",
+            "card_desc_international": "Préparation aux examens internationaux et parcours universitaire accéléré.",
             "card_title_esp": "Anglais pour Professionnels",
-            "card_desc_esp": "Build natural confidence for daily conversations, travel, and social interactions.",
+            "card_desc_esp": "Développer une confiance naturelle pour les conversations quotidiennes, les voyages et les interactions sociales.",
            
 
             "card_title_ielts": "Maîtrise IELTS",
@@ -308,9 +315,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
             "reviews_heading": "Histoires de Réussite",
             "review_1_text": "\"Merci beaucoup pour cette séance si enrichissante et si bien menée. <span class='text-white font-bold'>Tes explications claires, ton approche bienveillante et ton intérêt sincère pour notre apprentissage ont rendu cette expérience vraiment positive. J'apprécie le temps et les efforts que tu as consacrés à la préparation et à l'animation de cette session ; je l'ai trouvée à la fois captivante et précieuse. </span> Merci pour tes conseils et pour avoir créé un environnement d'apprentissage aussi agréable. Je t'aime Mademoiselle Houria.\"",
-            "review_1_role": "Étudiant Maîtrise IELTS",
+            "review_1_role": "Étudiant en cours d'expression orale",
             "review_2_text": "\"C'était vraiment bénéfique pour moi de commencer ce parcours d'apprentissage à tes côtés. <span class='text-white font-bold'> J'ai énormément appris, tant à l'écrit qu'à l'oral, pour préparer mon examen de l'IELTS. </span>Merci infiniment pour tes efforts et pour tout ce que tu as fait afin de rendre ces sessions aussi utiles que possible.\"",
-            "review_2_role": "Étudiante Anglais des Affaires",
+            "review_2_role": "Étudiant Maîtrise IELTS",
 
             "faq_heading": "Foire Aux Questions",
             "faq_1_q": "Comment fonctionnent les cours en ligne ?",
@@ -438,28 +445,28 @@ document.addEventListener('DOMContentLoaded', () => {
                 },
                 "cambridge": {
                     "title": "Cambridge ESOL",
-                    "description": "Methodical preparation that addresses common errors and reinforces linguistic skills with the tools and strategies necessary to ensure success in Cambridge exams.",
+                    "description": " Préparation méthodique qui traite les erreurs courantes et renforce les compétences linguistiques avec les outils nécessaires pour garantir la réussite aux examens de Cambridge.",
                     "duration": "5 Intensive Weeks",
                     "level": "Advanced",
                     "schedule": "Flexible"
                 },
                 "toeic": {
-                    "title": "TOEIC Pro",
+                    "title": "Programme TOEIC",
                     "description": "Nous nous concentrons sur le renforcement des compétences manquantes, en fournissant les stratégies nécessaires pour réussir l'examen et exceller dans le milieu professionnel.",
                     "duration": "5 Intensive Weeks",
                     "level": "Advanced",
                     "schedule": "Flexible"
                 },
                 "toefl": {
-                    "title": "TOEFL Elite",
+                    "title": "Préparation TOEFL iBT",
                     "description": "Formation intensive conçue pour combler les lacunes linguistiques et maîtriser les tactiques de gestion du temps, assurant le score requis pour l'admission universitaire.",
                     "duration": "5 Intensive Weeks",
                     "level": "Intermediate to Advanced",
                     "schedule": "Flexible"
                 },
                 "fast_track": {
-                    "title": "Fast Track to Turkey",
-                    "description": "A specialized bootcamp to pass the Proficiency exam; we fix academic gaps and provide the strategies that guarantee skipping the prep year and starting your major immediately.",
+                    "title": "Voie Rapide vers les Univ. Turques",
+                    "description": "Un bootcamp spécialisé pour réussir l'examen de compétence (Proficiency) ; nous corrigeons les lacunes académiques pour garantir le passage direct en faculté sans année préparatoire.",
                     "duration": "5 Intensive Weeks",
                     "level": "Advanced",
                     "schedule": "Flexible"
@@ -467,6 +474,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 "business": {
                     "title": "Anglais des Affaires",
                     "description": "Maîtrisez la langue des affaires mondiales. Apprenez à rédiger des e-mails efficaces, à diriger des réunions et à négocier avec confiance.",
+                    "duration": "5 Semaines Intensives",
+                    "level": "Intermédiaire",
+                    "schedule": "Flexible"
+                },
+                "medical": {
+                    "title": "Anglais Médical",
+                    "description": "Un programme spécialisé pour les professionnels de santé visant à combler les lacunes linguistiques dans la terminologie médicale et la communication avec les patients. Nous développons vos compétences de diagnostic et de recherche, fournissant les outils pour une performance médicale experte et sécurisée mondialement.",
                     "duration": "5 Semaines Intensives",
                     "level": "Intermédiaire",
                     "schedule": "Flexible"
@@ -559,12 +573,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-            "card_title_speaking": " إتقان التحدث بالإنجليزية",
+            "card_title_speaking": "إتقان التحدث بالإنجليزية",
             "card_desc_speaking": "تحضير شامل للوحدات الأكاديمية والعامة لربطك بالفرص العالمية.",
             "card_title_international": "قسم الامتحانات الدولية والمسار السريع",
-            "card_desc_international": "التحضير للإختبارات الدولية وvoie rapide académique.",
+            "card_desc_international": "التحضير للإختبارات الدولية والمسار الأكاديمي السريع.",
             "card_title_esp": "الإنجليزية لأغراض مهنية",
-            "card_desc_esp": "بناء الثقة الطبيعية للمحادثات اليومية، والسفر، والتفاعلات الاجتماعية.",
+            "card_desc_esp": "بناء ثقة طبيعية للمحادثات اليومية والسفر والتفاعلات الاجتماعية.",
 
 
             "reviews_heading": "قصص نجاح",
@@ -691,16 +705,51 @@ document.addEventListener('DOMContentLoaded', () => {
 
             "course_details": {
                 "ielts": {
-                    "title": "إتقان الآيلتس (IELTS)",
-                    "description": "دورتنا لإتقان الآيلتس هي برنامج مكثف مصمم لمساعدتك على تحقيق درجة 7.0 وما فوق. نغطي جميع الوحدات الأربع: الاستماع، القراءة، الكتابة، والتحدث.",
-                    "duration": "12 أسبوع",
-                    "level": "متوسط إلى متقدم",
-                    "schedule": "الإثنين/الأربعاء/الجمعة - 6:00 م"
+                    "title": "دورة الآيلتس (IELTS Preparation)",
+                    "description": "برنامج مخصص يركز على تشخيص ومعالجة نقاط الضعف لدى الطالب، مع تزويده باستراتيجيات متقدمة للتعامل مع ضغط الامتحان، لضمان الوصول إلى العلامة المنشودة في كافة أقسام الاختبار.",
+                    "duration": "5 اسابيع مكثفة",
+                    "level": "Intermédiaire à Avancé",
+                    "schedule": "مرن"
+                },
+                "cambridge": {
+                    "title": "دورة كامبريدج (ESOL)",
+                    "description": "تحضير منهجي يعمل على معالجة الأخطاء الشائعة لدى الطالب وتقوية مهاراته اللغوية، مع تقديم الأدوات والاستراتيجيات اللازمة لضمان النجاح في اختبارات كامبريدج العالمية.",
+                    "duration": "5 اسابيع مكثفة",
+                    "level": "Advanced",
+                    "schedule": "مرن"
+                },
+                "toeic": {
+                    "title": "دورة تويك (TOEIC Program)",
+                    "description": "نركز في هذه الدورة على تقوية المهارات الناقصة في سياق اللغة الإنجليزية المهنية، مع تزويد المتدرب بالاستراتيجيات الكفيلة بتجاوز الامتحان وضمان التميز في بيئة العمل الدولية.",
+                    "duration": "5 اسابيع مكثفة",
+                    "level": "Advanced",
+                    "schedule": "مرن"
+                },
+                "toefl": {
+                    "title": "دورة التوفل (TOEFL iBT Prep)",
+                    "description": "تدريب مكثف يهدف إلى سد الثغرات اللغوية لدى الطالب وتدريبه على أحدث التكتيكات الفنية لإدارة الوقت والأسئلة الأكاديمية، لضمان تحقيق الدرجة المطلوبة للقبول الجامعي.",
+                    "duration": "5 اسابيع مكثفة",
+                    "level": "Intermediate to Advanced",
+                    "schedule": "مرن"
+                },
+                "fast_track": {
+                    "title": "المسار السريع للجامعات التركية (Fast Track)",
+                    "description": "معسكر تدريبي مخصص لتجاوز اختبار الكفاءة (Proficiency)؛ نعمل فيه على معالجة نقائص الطالب الأكاديمية وتزويده بالاستراتيجيات التي تضمن له تخطي السنة التحضيرية والالتحاق بتخصصه فوراً.",
+                    "duration": "5 اسابيع مكثفة",
+                    "level": "Advanced",
+                    "schedule": "مرن"
                 },
                 "business": {
                     "title": "الإنجليزية للأعمال",
-                    "description": "أتقن لغة الأعمال العالمية. تعلم كتابة رسائل بريد إلكتروني فعالة، وقيادة الاجتماعات، والتفاوض بثقة.",
-                    "duration": "8 أسابيع",
+                    "description": "دورة مصممة لتمكين المحترفين من لغة التواصل المؤسسي؛ نركز على معالجة التحديات التواصلية في الاجتماعات، كتابة التقارير الرسمية، وتقديم العروض التقديمية، مع تزويدك بالاستراتيجيات اللازمة لتعزيز ثقتك في بيئة العمل الدولية وضمان التميز المهني.",
+                    "duration": "5 اسابيع مكثفة",
+                    "level": "متوسط",
+                    "schedule": "الثلاثاء/الخميس - 7:00 م"
+                },
+                "medical": {
+                    "title": "الإنجليزية الطبية",
+                    "description": "برنامج متخصص للكوادر الطبية يهدف إلى سد الفجوة اللغوية في التعامل مع المصطلحات الطبية الدقيقة والتواصل مع المرضى والزملاء. نعمل على تطوير مهاراتك التشخيصية والبحثية بالإنجليزية، مع تزويدك بالأدوات اللازمة لضمان أداء مهني طبي متقن وآمن عالمياً.",
+                    "duration": "5 اسابيع مكثفة",
                     "level": "متوسط",
                     "schedule": "الثلاثاء/الخميس - 7:00 م"
                 },
@@ -717,13 +766,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     "duration": "مرن",
                     "level": "جميع المستويات",
                     "schedule": "بالمواعيد"
-                },
-                "toefl": {
-                    "title": "التحضير للتوفل (TOEFL)",
-                    "description": "إعداد استراتيجي لاختبار TOEFL iBT. نركز على المهارات المحددة اللازمة للنجاح في البيئة الأكاديمية.",
-                    "duration": "12 أسبوع",
-                    "level": "متوسط إلى متقدم",
-                    "schedule": "الثلاثاء/الخميس - 6:00 م"
                 },
                 "kids": {
                     "title": "الإنجليزية للأطفال",
