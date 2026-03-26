@@ -8,10 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
             "nav_courses": "Courses",
             "nav_contact": "Contact Us",
             "hero_badge": "🚀 Master English, Conquer Your Future",
-            "hero_title": "Break Barriers with <span class='text-brandRed'>Confident</span> English.",
-            "hero_subtitle": "Whether you are preparing for IELTS or aiming for professional fluency, Houria English provides the tools and guidance to help you succeed globally.",
+            "hero_title": "<span class='text-brandRed'>Level up</span> your English & <span class='text-brandRed'> Unlock</span> your future.",
+            "hero_subtitle": "Houria English helps you level up your fluency, whether you are aiming for a top score in global exams or mastering everyday conversation. We provide the expertise to ensure you speak naturally in daily life and with professional precision in specialized fields.",
             "btn_explore": "Explore Our Courses",
-            "btn_join": "Join Your Free Session",
+            "btn_join": "Join Your Free English Level Test",
             "about_heading": "<span class='text-brandRed'>Houria</span> English",
             "about_text": "Founded by experts with a passion for linguistics, Houria English is more than just a school. We focus on real-world application, cultural nuance, and the psychological confidence needed to speak a second language natively.",
             "about_tailored_title": "Tailored Learning",
@@ -212,6 +212,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     "level": "Advanced",
                     "schedule": "Flexible"
                 },
+                "duolingo": {
+                    "title": "Duolingo Prep",
+                    "description": "An intensive course designed to develop your language skills and improve your English proficiency, providing you with the strategies needed to excel in Duolingo exams.",
+                    "duration": "5 Intensive Weeks",
+                    "level": "Advanced",
+                    "schedule": "Flexible"
+                },
                 "business": {
                     "title": "Business English",
                     "description": "A course designed to empower professionals with corporate communication skills. We focus on addressing communication challenges in meetings, report writing, and presentations, providing you with the strategies to boost your confidence and ensure professional excellence.",
@@ -261,10 +268,10 @@ document.addEventListener('DOMContentLoaded', () => {
             "nav_courses": "Cours",
             "nav_contact": "Contact",
             "hero_badge": "🚀 Maîtrisez l'anglais, Conquérez votre avenir",
-            "hero_title": "Brisez les barrières, parlez avec <span class='text-brandRed'>Confiance</span>.",
-            "hero_subtitle": "Que vous prépariez l'IELTS ou visiez la fluidité professionnelle, Houria English vous donne les outils pour réussir à l'international.",
+            "hero_title": "<span class='text-brandRed'>Boostez </span> votre anglais <span class='text-brandRed'>et ouvrez-vous </span> un avenir sans limites.",
+            "hero_subtitle": "Houria English vous aide à élever votre niveau de fluidité, que vous visiez l'excellence aux examens internationaux ou que vous souhaitiez maîtriser les conversations du quotidien. Nous vous apportons l'expertise nécessaire pour vous exprimer naturellement dans la vie de tous les jours et avec une précision professionnelle dans vos domaines spécialisés.",
             "btn_explore": "Découvrir nos cours",
-            "btn_join": "Séance Gratuite",
+            "btn_join": "Participez à votre test de niveau d'anglais gratuit",
             "about_heading": "À Propos de <span class='text-brandRed'>Houria English</span>",
             "about_text": "Fondée par des experts passionnés, Houria English est plus qu'une école. Nous nous concentrons sur l'application réelle, les nuances culturelles et la confiance psychologique.",
             "about_tailored_title": "Apprentissage sur mesure",
@@ -471,6 +478,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     "level": "Advanced",
                     "schedule": "Flexible"
                 },
+                "duolingo": {
+                    "title": "Duolingo",
+                    "description": "Un bootcamp spécialisé pour réussir l'examen de compétence (Proficiency) ; nous corrigeons les lacunes académiques pour garantir le passage direct en faculté sans année préparatoire.",
+                    "duration": "5 Intensive Weeks",
+                    "level": "Advanced",
+                    "schedule": "Flexible"
+                },
                 "business": {
                     "title": "Anglais des Affaires",
                     "description": "Maîtrisez la langue des affaires mondiales. Apprenez à rédiger des e-mails efficaces, à diriger des réunions et à négocier avec confiance.",
@@ -527,10 +541,10 @@ document.addEventListener('DOMContentLoaded', () => {
             "nav_courses": "دوراتنا",
             "nav_contact": "اتصل بنا",
             "hero_badge": "🚀 أتقن الإنجليزية، اصنع مستقبلك",
-            "hero_title": "تحدث الإنجليزية <span class='text-brandRed'>بثقة</span> واكسر القيود.",
-            "hero_subtitle": "سواء كنت تستعد لاختبار IELTS أو تهدف للطلاقة المهنية، توفر لك حورية انجليزية الأدوات والتوجيه للنجاح عالمياً.",
+            "hero_title": "<span class='text-brandRed'>ارتقِ </span> بلغتِك الإنجليزية..  <span class='text-brandRed'> وافتح </span>آفاق مستقبلك.",
+            "hero_subtitle": "منصة Houria English تساعدك على الارتقاء بطلاقتك، سواء كنت تطمح لتحقيق أعلى الدرجات في الامتحانات العالمية أو إتقان المحادثات اليومية. نحن نمنحك الخبرة اللازمة لتتحدث بعفوية في حياتك اليومية، وبدقة احترافية في مجالاتك المتخصصة.",
             "btn_explore": "استكشف دوراتنا",
-            "btn_join": "انضم لجلسة مجانية",
+            "btn_join": "انضم لاختبار تحديد مستوى اللغة الإنجليزية المجاني",
             "about_heading": "عن <span class='text-brandRed'>حورية انجليزية</span>",
             "about_text": "تأسست حورية انجليزية على يد خبراء لغويين، وهي أكثر من مجرد مدرسة. نركز على التطبيق العملي، والفروق الثقافية، والثقة النفسية للتحدث بطلاقة.",
             "about_tailored_title": "تعلم مُصمم خصيصاً لك",
@@ -735,6 +749,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 "fast_track": {
                     "title": "المسار السريع للجامعات التركية (Fast Track)",
                     "description": "معسكر تدريبي مخصص لتجاوز اختبار الكفاءة (Proficiency)؛ نعمل فيه على معالجة نقائص الطالب الأكاديمية وتزويده بالاستراتيجيات التي تضمن له تخطي السنة التحضيرية والالتحاق بتخصصه فوراً.",
+                    "duration": "5 اسابيع مكثفة",
+                    "level": "Advanced",
+                    "schedule": "مرن"
+                },
+                "duolingo": {
+                    "title": "دورة دوولينغ (Duolingo Prep)",
+                    "description": "دورة مكثفة تهدف إلى تطوير مهاراتك اللغوية وتحسين مهاراتك في اللغة الإنجليزية، مع تزويدك بالاستراتيجيات اللازمة لضمان النجاح في اختبارات Duolingo العالمية.",
                     "duration": "5 اسابيع مكثفة",
                     "level": "Advanced",
                     "schedule": "مرن"
